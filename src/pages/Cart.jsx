@@ -1,7 +1,7 @@
 import React from 'react';
-import Book from "../components/ui/Book"
+
 import EmptyCart from "../assets/empty_cart.svg"
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Cart = ({ cart, changeQuantity, removeFromCart }) => {
 
